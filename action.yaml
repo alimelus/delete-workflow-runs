@@ -36,7 +36,7 @@ inputs:
     required: false
 
   delete_run_by_conclusion_pattern:
-    description: 'Remove workflow by conclusion: action_required, cancelled, failure, skipped, success'
+    description: 'Remove workflow by conclusion: cancelled, failure, skipped, success'
     required: false
 
   dry_run:
