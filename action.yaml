@@ -1,12 +1,12 @@
 name: 'Delete workflow runs'
 description: 'An action to delete workflow runs in a repository.'
-author: 'Mattraks'
+author: 'alimelus'
 
 inputs:
   token:
     description: 'The token used to authenticate.'
     required: true
-    default: ${{ github.token }}
+    default: ${{ secrets.GITHUB_TOKEN }}
 
   baseUrl:
     description: 'The base api url to be used in enterprise github instances'
